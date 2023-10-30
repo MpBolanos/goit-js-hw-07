@@ -83,4 +83,12 @@ utilizando `galleryContainer.insertAdjacentHTML("beforeend", photosMarkup)`.
 el selector CSS que apunta a los elementos `<a>` dentro de la galería (`'.gallery a'`). 
 Esto inicializa el lightbox para que funcione con las imágenes de la galería.
 
+- `{ caption: true }`: Esta propiedad se establece en `true` para habilitar el uso de subtítulos en las imágenes.
+
+- `{ captionsData: 'alt' }`: Esta propiedad especifica que los subtítulos se obtendrán del atributo `alt` de las 
+imágenes. Los valores del atributo `alt` se utilizarán como texto para los subtítulos.
+
+- `{ captionDelay: 250 }`: Esta propiedad establece un retraso de 250 milisegundos antes de mostrar 
+el subtítulo después de abrir la imagen.
+
 */
