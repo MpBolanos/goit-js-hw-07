@@ -21,7 +21,11 @@ function createGalleryItem(element){
 
 galleryContainer.insertAdjacentHTML("beforeend", photosMarkup);
 
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+    caption: true,
+    captionsData: 'alt',
+    captionDelay: 250,
+});
 
 
 /*
